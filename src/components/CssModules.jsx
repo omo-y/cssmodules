@@ -1,9 +1,10 @@
+import React from "react";
 import classes from "./CssModules.module.scss";
 export const CssModules = () => {
   return (
-    <div>
-      <p>-inline style-</p>
-      <button>Fight!!</button>
+    <div className={classes.container}>
+      <p className={classes.title}>-inline style-</p>
+      <button className={classes.button}>Fight!!</button>
     </div>
   );
 };
