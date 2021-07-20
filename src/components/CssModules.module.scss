@@ -18,4 +18,9 @@
     border: none;
     padding: 8px;
     border-radius: 8px;
+    &:hover{
+      background-color: #46cdcf;
+      color:#ff0000;
+      cursor:pointer;
+    }
   }
